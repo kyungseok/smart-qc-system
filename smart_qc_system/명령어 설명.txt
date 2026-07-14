@@ -1,0 +1,14 @@
+
+1) 명령어창 실행 : win + R > cmd
+2) 폴더이동 : cd C:\smart_qc_system\
+3) 프로그램 실행 : python -m streamlit run app.py
+
+cd C:\smart_qc_system\
+streamlit run login_page.py
+python -m streamlit run app.py
+
+cd C:\smart_qc_system\core
+python -m streamlit run standard.py
+
+pip install streamlit
+pip install streamlit pandas reportlab openpyxl pillow
